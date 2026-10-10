@@ -14,7 +14,7 @@ on:
         description: 'comma list to restrict contestants (empty = all)'
         default: ''
   push:
-    branches: [main]
+    branches: [master, main]
   pull_request:
 
 jobs:
