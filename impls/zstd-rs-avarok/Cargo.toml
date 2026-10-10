@@ -1,0 +1,12 @@
+[package]
+name = "zstd-rs-avarok"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+zstd-rs = "=0.1.0"
+
+[profile.release]
+opt-level = 3
+debug = false

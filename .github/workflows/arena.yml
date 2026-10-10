@@ -1,0 +1,71 @@
+name: arena
+
+# The competition runs only in CI: one runner, one window, rotated order.
+on:
+  workflow_dispatch:
+    inputs:
+      rounds:
+        description: 'rounds (rotation passes)'
+        default: '3'
+      samples:
+        description: 'samples per contestant per round'
+        default: '5'
+      impls:
+        description: 'comma list to restrict contestants (empty = all)'
+        default: ''
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  arena:
+    name: arena (${{ matrix.arch }})
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            arch: x86_64
+          - os: ubuntu-24.04-arm
+            arch: aarch64
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+
+      - name: host identity
+        run: |
+          uname -a
+          nproc
+          python3 -V
+          rustc -Vv | sed -n '1,3p'
+          { echo "### host (${{ matrix.arch }})"; echo '```'; uname -a; nproc; rustc -Vv | sed -n '1,3p'; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: build C reference (facebook/zstd v1.5.7)
+        run: bash scripts/build_all.sh c
+
+      - name: build contestants
+        run: bash scripts/build_all.sh rust
+
+      - name: generate corpus
+        run: python3 corpus/generate.py corpus-out
+
+      - name: run arena
+        env:
+          ZSTD_BIN: ${{ github.workspace }}/third_party/bin/zstd
+        run: |
+          python3 drivers/arena.py \
+            --workdir work \
+            --corpus corpus-out \
+            --rounds "${{ github.event.inputs.rounds || '3' }}" \
+            --samples "${{ github.event.inputs.samples || '5' }}" \
+            --impls "${{ github.event.inputs.impls || '' }}" \
+            --out "work/results-${{ matrix.arch }}.json"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: arena-${{ matrix.arch }}
+          path: work/
+          if-no-files-found: warn

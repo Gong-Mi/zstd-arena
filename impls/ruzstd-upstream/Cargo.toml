@@ -1,0 +1,12 @@
+[package]
+name = "ruzstd-upstream"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+ruzstd = { git = "https://github.com/KillingSpark/zstd-rs", rev = "fe37617b53d611398303d3ffeee77a0a3a72bf31" }
+
+[profile.release]
+opt-level = 3
+debug = false

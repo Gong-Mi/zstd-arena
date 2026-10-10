@@ -1,0 +1,73 @@
+{
+  "arena_version": "1.0.0",
+  "note": "Contestant identity pins. Every value is a source ref/SHA, not a floating version.",
+  "c_reference": {
+    "name": "zstd-c",
+    "kind": "c-driver",
+    "source": "https://github.com/facebook/zstd",
+    "tag": "v1.5.7",
+    "build": "make -C zstd-1.5.7 -j N (lib-release), then impls/c/driver.c linked statically against lib/libzstd.a",
+    "api": "one-shot ZSTD_compress / ZSTD_decompressDCtx, same process-level contract as the Rust contestants",
+    "bin": "third_party/bin/zstd-c-driver",
+    "levels": {
+      "L1": 1,
+      "L3": 3
+    }
+  },
+  "contestants": [
+    {
+      "name": "ruzstd-release",
+      "pretty": "ruzstd 0.9.0 (crates.io, upstream released)",
+      "kind": "rust",
+      "crate": "ruzstd",
+      "source": "crates.io",
+      "version": "=0.9.0",
+      "levels": {
+        "L1": 1,
+        "L3": 1
+      },
+      "level_note": "CompressionLevel::Default/Better/Best are UNIMPLEMENTED upstream; both L1 and L3 map to Fastest."
+    },
+    {
+      "name": "ruzstd-upstream",
+      "pretty": "ruzstd @ KillingSpark/zstd-rs master (fe37617)",
+      "kind": "rust",
+      "crate": "ruzstd",
+      "source": "git",
+      "url": "https://github.com/KillingSpark/zstd-rs",
+      "rev": "fe37617b53d611398303d3ffeee77a0a3a72bf31",
+      "levels": {
+        "L1": 1,
+        "L3": 1
+      },
+      "level_note": "CompressionLevel::Default/Better/Best are UNIMPLEMENTED upstream; both L1 and L3 map to Fastest."
+    },
+    {
+      "name": "ruzstd-fork",
+      "pretty": "ruzstd @ Gong-Mi/zstd-rs integration-green (b4ea9a3)",
+      "kind": "rust",
+      "crate": "ruzstd",
+      "source": "git",
+      "url": "https://github.com/Gong-Mi/zstd-rs",
+      "rev": "b4ea9a3cedabda82364e2cd2a0dca9f9b84b62e5",
+      "levels": {
+        "L1": 1,
+        "L3": 1
+      },
+      "level_note": "Same public level enum as upstream; only Fastest is implemented."
+    },
+    {
+      "name": "zstd-rs-avarok",
+      "pretty": "zstd-rs 0.1.0 (Avarok-Cybersecurity, pure-Rust full codec)",
+      "kind": "rust",
+      "crate": "zstd-rs",
+      "source": "crates.io",
+      "version": "=0.1.0",
+      "levels": {
+        "L1": 1,
+        "L3": 3
+      },
+      "level_note": "Implements the reference level table -7..=22."
+    }
+  ]
+}

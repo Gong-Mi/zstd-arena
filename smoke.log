@@ -1,0 +1,1738 @@
+[arena] pinned to cpu3; corpora=7; contestants=['zstd-c', 'ruzstd-release', 'ruzstd-upstream', 'ruzstd-fork', 'zstd-rs-avarok']
+[arena] producing C reference frames
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":1732109}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1732109,"out":4194304}
+  frame elf4m      C-1    1732109 bytes  oracle=True
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":815837}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":815837,"out":4194304}
+  frame elf4m      C-3     815837 bytes  oracle=True
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":1048576,"out":264692}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":264692,"out":1048576}
+  frame json1m     C-1     264692 bytes  oracle=True
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":1048576,"out":247659}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":247659,"out":1048576}
+  frame json1m     C-3     247659 bytes  oracle=True
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":4194414}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194414,"out":4194304}
+  frame rand4m     C-1    4194414 bytes  oracle=True
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":4194414}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194414,"out":4194304}
+  frame rand4m     C-3    4194414 bytes  oracle=True
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4096,"out":1324}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1324,"out":4096}
+  frame small4k    C-1       1324 bytes  oracle=True
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4096,"out":1308}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1308,"out":4096}
+  frame small4k    C-3       1308 bytes  oracle=True
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":715050}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":715050,"out":4194304}
+  frame src4m      C-1     715050 bytes  oracle=True
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":710100}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":710100,"out":4194304}
+  frame src4m      C-3     710100 bytes  oracle=True
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":1544683}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1544683,"out":4194304}
+  frame text4m     C-1    1544683 bytes  oracle=True
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":1372652}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1372652,"out":4194304}
+  frame text4m     C-3    1372652 bytes  oracle=True
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":1048576,"out":55}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":55,"out":1048576}
+  frame zeros1m    C-1         55 bytes  oracle=True
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":1048576,"out":54}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":54,"out":1048576}
+  frame zeros1m    C-3         54 bytes  oracle=True
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":1732109}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1732109,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1732109,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":815837}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":815837,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":815837,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":1048576,"out":264692}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":264692,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":264692,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":1048576,"out":247659}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":247659,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":247659,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":4194414}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194414,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194414,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":4194414}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194414,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194414,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4096,"out":1324}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1324,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1324,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4096,"out":1308}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1308,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1308,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":715050}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":715050,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":715050,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":710100}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":710100,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":710100,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":1544683}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1544683,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1544683,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":1372652}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1372652,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1372652,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":1048576,"out":55}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":55,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":55,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":1048576,"out":54}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":54,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":54,"out":1048576}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":2197208}
+{"impl":"ruzstd-release","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":2197208,"out":4194304}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":2197208}
+{"impl":"ruzstd-release","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":2197208,"out":4194304}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":332870}
+{"impl":"ruzstd-release","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":332870,"out":1048576}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":332870}
+{"impl":"ruzstd-release","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":332870,"out":1048576}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-release","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-release","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1473}
+{"impl":"ruzstd-release","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1473,"out":4096}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1473}
+{"impl":"ruzstd-release","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1473,"out":4096}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1153809}
+{"impl":"ruzstd-release","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1153809,"out":4194304}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1153809}
+{"impl":"ruzstd-release","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1153809,"out":4194304}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1929225}
+{"impl":"ruzstd-release","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1929225,"out":4194304}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1929225}
+{"impl":"ruzstd-release","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1929225,"out":4194304}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-release","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-release","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":2197208}
+{"impl":"ruzstd-upstream","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":2197208,"out":4194304}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":2197208}
+{"impl":"ruzstd-upstream","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":2197208,"out":4194304}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":332870}
+{"impl":"ruzstd-upstream","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":332870,"out":1048576}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":332870}
+{"impl":"ruzstd-upstream","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":332870,"out":1048576}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-upstream","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-upstream","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1473}
+{"impl":"ruzstd-upstream","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1473,"out":4096}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1473}
+{"impl":"ruzstd-upstream","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1473,"out":4096}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1153809}
+{"impl":"ruzstd-upstream","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1153809,"out":4194304}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1153809}
+{"impl":"ruzstd-upstream","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1153809,"out":4194304}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1929225}
+{"impl":"ruzstd-upstream","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1929225,"out":4194304}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1929225}
+{"impl":"ruzstd-upstream","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1929225,"out":4194304}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-upstream","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-upstream","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1759581}
+{"impl":"ruzstd-fork","op":"decode","in":1759581,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1759581,"out":4194304}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1759581}
+{"impl":"ruzstd-fork","op":"decode","in":1759581,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1759581,"out":4194304}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":277547}
+{"impl":"ruzstd-fork","op":"decode","in":277547,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":277547,"out":1048576}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":277547}
+{"impl":"ruzstd-fork","op":"decode","in":277547,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":277547,"out":1048576}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-fork","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-fork","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1389}
+{"impl":"ruzstd-fork","op":"decode","in":1389,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1389,"out":4096}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1389}
+{"impl":"ruzstd-fork","op":"decode","in":1389,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1389,"out":4096}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":803653}
+{"impl":"ruzstd-fork","op":"decode","in":803653,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":803653,"out":4194304}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":803653}
+{"impl":"ruzstd-fork","op":"decode","in":803653,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":803653,"out":4194304}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1615823}
+{"impl":"ruzstd-fork","op":"decode","in":1615823,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1615823,"out":4194304}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1615823}
+{"impl":"ruzstd-fork","op":"decode","in":1615823,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1615823,"out":4194304}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-fork","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-fork","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":1748453}
+{"impl":"zstd-rs-avarok","op":"decode","in":1748453,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1748453,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":826387}
+{"impl":"zstd-rs-avarok","op":"decode","in":826387,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":826387,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":1048576,"out":268446}
+{"impl":"zstd-rs-avarok","op":"decode","in":268446,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":268446,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":1048576,"out":249572}
+{"impl":"zstd-rs-avarok","op":"decode","in":249572,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":249572,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":4194410}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194410,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194410,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":4194410}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194410,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194410,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4096,"out":1330}
+{"impl":"zstd-rs-avarok","op":"decode","in":1330,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1330,"out":4096}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4096,"out":1307}
+{"impl":"zstd-rs-avarok","op":"decode","in":1307,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1307,"out":4096}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":726802}
+{"impl":"zstd-rs-avarok","op":"decode","in":726802,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":726802,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":714386}
+{"impl":"zstd-rs-avarok","op":"decode","in":714386,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":714386,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":1561958}
+{"impl":"zstd-rs-avarok","op":"decode","in":1561958,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1561958,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":1381423}
+{"impl":"zstd-rs-avarok","op":"decode","in":1381423,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1381423,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":1048576,"out":107}
+{"impl":"zstd-rs-avarok","op":"decode","in":107,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":107,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":1048576,"out":106}
+{"impl":"zstd-rs-avarok","op":"decode","in":106,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":106,"out":1048576}
+[arena] self/cross oracle checks done: 140
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":1732109}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":1732109}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":815837}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":815837}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":1048576,"out":264692}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":1048576,"out":264692}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":1048576,"out":247659}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":1048576,"out":247659}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":4194414}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":4194414}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":4194414}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":4194414}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4096,"out":1324}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4096,"out":1324}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4096,"out":1308}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4096,"out":1308}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":715050}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":715050}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":710100}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":710100}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":1544683}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":1544683}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":1372652}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":1372652}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":1048576,"out":55}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":1,"level_effective":1,"in":1048576,"out":55}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":1048576,"out":54}
+{"impl":"zstd-c","version":"1.5.7","op":"encode","level_requested":3,"level_effective":3,"in":1048576,"out":54}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":2197208}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":2197208}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":2197208}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":2197208}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":332870}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":332870}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":332870}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":332870}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1473}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1473}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1473}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1473}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1153809}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1153809}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1153809}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1153809}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1929225}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1929225}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1929225}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1929225}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-release","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":2197208}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":2197208}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":2197208}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":2197208}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":332870}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":332870}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":332870}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":332870}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1473}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1473}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1473}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1473}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1153809}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1153809}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1153809}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1153809}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1929225}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1929225}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1929225}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1929225}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-upstream","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1759581}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1759581}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1759581}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1759581}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":277547}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":277547}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":277547}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":277547}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":4194413}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1389}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1389}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1389}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4096,"out":1389}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":803653}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":803653}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":803653}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":803653}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1615823}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1615823}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1615823}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":4194304,"out":1615823}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"ruzstd-fork","op":"encode","level_requested":1,"level_effective":"Fastest","in":1048576,"out":45}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":1748453}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":1748453}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":826387}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":826387}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":1048576,"out":268446}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":1048576,"out":268446}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":1048576,"out":249572}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":1048576,"out":249572}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":4194410}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":4194410}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":4194410}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":4194410}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4096,"out":1330}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4096,"out":1330}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4096,"out":1307}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4096,"out":1307}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":726802}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":726802}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":714386}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":714386}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":1561958}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":4194304,"out":1561958}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":1381423}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":4194304,"out":1381423}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":1048576,"out":107}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":1,"level_effective":1,"in":1048576,"out":107}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":1048576,"out":106}
+{"impl":"zstd-rs-avarok","op":"encode","level_requested":3,"level_effective":3,"in":1048576,"out":106}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1732109,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1732109,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1732109,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1732109,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1732109,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1732109,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1732109,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1732109,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1732109,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1732109,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":815837,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":815837,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":815837,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":815837,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":815837,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":815837,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":815837,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":815837,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":815837,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":815837,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1732109,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1732109,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1732109,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1732109,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1732109,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1732109,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1732109,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1732109,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1732109,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1732109,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":815837,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":815837,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":815837,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":815837,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":815837,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":815837,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":815837,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":815837,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":815837,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":815837,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":2197208,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":2197208,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":2197208,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":2197208,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":2197208,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":2197208,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":2197208,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":2197208,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":2197208,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":2197208,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1759581,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1759581,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1759581,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1759581,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1759581,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1759581,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1759581,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1759581,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1759581,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1759581,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1759581,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1759581,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1759581,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1759581,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1759581,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1759581,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1759581,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1759581,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1759581,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1759581,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1748453,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1748453,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1748453,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1748453,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1748453,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1748453,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1748453,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1748453,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1748453,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1748453,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":826387,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":826387,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":826387,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":826387,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":826387,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":826387,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":826387,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":826387,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":826387,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":826387,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":264692,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":264692,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":264692,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":264692,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":264692,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":264692,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":264692,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":264692,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":264692,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":264692,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":247659,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":247659,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":247659,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":247659,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":247659,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":247659,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":247659,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":247659,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":247659,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":247659,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":264692,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":264692,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":264692,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":264692,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":264692,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":264692,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":264692,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":264692,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":264692,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":264692,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":247659,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":247659,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":247659,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":247659,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":247659,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":247659,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":247659,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":247659,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":247659,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":247659,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":332870,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":332870,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":332870,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":332870,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":332870,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":332870,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":332870,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":332870,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":332870,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":332870,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":277547,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":277547,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":277547,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":277547,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":277547,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":277547,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":277547,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":277547,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":277547,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":277547,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":277547,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":277547,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":277547,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":277547,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":277547,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":277547,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":277547,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":277547,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":277547,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":277547,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":268446,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":268446,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":268446,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":268446,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":268446,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":268446,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":268446,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":268446,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":268446,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":268446,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":249572,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":249572,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":249572,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":249572,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":249572,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":249572,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":249572,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":249572,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":249572,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":249572,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194414,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194414,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194414,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194414,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194414,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194414,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194414,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194414,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194414,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194414,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194414,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194414,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194414,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194414,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194414,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194414,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194414,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194414,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194414,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194414,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194414,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194413,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194413,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194413,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194410,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194410,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194410,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194410,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194410,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194410,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194410,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194410,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194410,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194410,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194410,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":4194410,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194410,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":4194410,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194410,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":4194410,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194410,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":4194410,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194410,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":4194410,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1324,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1324,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1324,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1324,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1324,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1324,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1324,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1324,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1324,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1324,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1308,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1308,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1308,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1308,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1308,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1308,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1308,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1308,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1308,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1308,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1324,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1324,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1324,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1324,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1324,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1324,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1324,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1324,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1324,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1324,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1308,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1308,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1308,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1308,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1308,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1308,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1308,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1308,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1308,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1308,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1473,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1473,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1473,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1473,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1473,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1473,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1473,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1473,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1473,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1473,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1389,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1389,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1389,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1389,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1389,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1389,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1389,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1389,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1389,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1389,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1389,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1389,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1389,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1389,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1389,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1389,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1389,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1389,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1389,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1389,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1330,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1330,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1330,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1330,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1330,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1330,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1330,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1330,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1330,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1330,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1307,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1307,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1307,"out":4096}
+{"impl":"ruzstd-release","op":"decode","in":1307,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1307,"out":4096}
+{"impl":"ruzstd-upstream","op":"decode","in":1307,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1307,"out":4096}
+{"impl":"ruzstd-fork","op":"decode","in":1307,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1307,"out":4096}
+{"impl":"zstd-rs-avarok","op":"decode","in":1307,"out":4096}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":715050,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":715050,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":715050,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":715050,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":715050,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":715050,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":715050,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":715050,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":715050,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":715050,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":710100,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":710100,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":710100,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":710100,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":710100,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":710100,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":710100,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":710100,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":710100,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":710100,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":715050,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":715050,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":715050,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":715050,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":715050,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":715050,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":715050,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":715050,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":715050,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":715050,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":710100,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":710100,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":710100,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":710100,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":710100,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":710100,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":710100,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":710100,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":710100,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":710100,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1153809,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1153809,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1153809,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1153809,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1153809,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1153809,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1153809,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1153809,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1153809,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1153809,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":803653,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":803653,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":803653,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":803653,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":803653,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":803653,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":803653,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":803653,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":803653,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":803653,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":803653,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":803653,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":803653,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":803653,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":803653,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":803653,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":803653,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":803653,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":803653,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":803653,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":726802,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":726802,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":726802,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":726802,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":726802,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":726802,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":726802,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":726802,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":726802,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":726802,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":714386,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":714386,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":714386,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":714386,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":714386,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":714386,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":714386,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":714386,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":714386,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":714386,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1544683,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1544683,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1544683,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1544683,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1544683,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1544683,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1544683,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1544683,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1544683,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1544683,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1372652,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1372652,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1372652,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1372652,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1372652,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1372652,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1372652,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1372652,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1372652,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1372652,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1544683,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1544683,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1544683,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1544683,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1544683,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1544683,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1544683,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1544683,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1544683,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1544683,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1372652,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1372652,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1372652,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1372652,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1372652,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1372652,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1372652,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1372652,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1372652,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1372652,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1929225,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1929225,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1929225,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1929225,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1929225,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1929225,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1929225,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1929225,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1929225,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1929225,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1615823,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1615823,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1615823,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1615823,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1615823,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1615823,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1615823,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1615823,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1615823,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1615823,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1615823,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1615823,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1615823,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1615823,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1615823,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1615823,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1615823,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1615823,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1615823,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1615823,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1561958,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1561958,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1561958,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1561958,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1561958,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1561958,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1561958,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1561958,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1561958,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1561958,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1381423,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":1381423,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1381423,"out":4194304}
+{"impl":"ruzstd-release","op":"decode","in":1381423,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1381423,"out":4194304}
+{"impl":"ruzstd-upstream","op":"decode","in":1381423,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1381423,"out":4194304}
+{"impl":"ruzstd-fork","op":"decode","in":1381423,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1381423,"out":4194304}
+{"impl":"zstd-rs-avarok","op":"decode","in":1381423,"out":4194304}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":55,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":55,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":55,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":55,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":55,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":55,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":55,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":55,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":55,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":55,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":54,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":54,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":54,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":54,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":54,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":54,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":54,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":54,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":54,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":54,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":55,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":55,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":55,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":55,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":55,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":55,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":55,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":55,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":55,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":55,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":54,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":54,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":54,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":54,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":54,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":54,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":54,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":54,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":54,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":54,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":45,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":45,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":45,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":107,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":107,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":107,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":107,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":107,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":107,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":107,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":107,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":107,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":107,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":106,"out":1048576}
+{"impl":"zstd-c","version":"1.5.7","op":"decode","level_requested":0,"level_effective":0,"in":106,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":106,"out":1048576}
+{"impl":"ruzstd-release","op":"decode","in":106,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":106,"out":1048576}
+{"impl":"ruzstd-upstream","op":"decode","in":106,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":106,"out":1048576}
+{"impl":"ruzstd-fork","op":"decode","in":106,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":106,"out":1048576}
+{"impl":"zstd-rs-avarok","op":"decode","in":106,"out":1048576}
+## zstd arena — 2026-10-10T14:54:02Z on aarch64 (cpu pinned 3)
+
+encode (level-matched; cpu_s median / size vs C at the same level)
+| corpus | level | impl | cpu_s | wall_s | out bytes | vs C size | vs C cpu |
+|---|---|---|---|---|---|---|---|
+| elf4m | L1 | ruzstd-fork | 0.0993 | 0.1007 | 1759581.0 | 101.59% | 1.53x |
+| elf4m | L3 | ruzstd-fork | 0.0988 | 0.1003 | 1759581.0 | 215.68% | 1.56x |
+| json1m | L1 | ruzstd-fork | 0.0297 | 0.0321 | 277547.0 | 104.86% | 0.56x |
+| json1m | L3 | ruzstd-fork | 0.0272 | 0.0280 | 277547.0 | 112.07% | 0.52x |
+| rand4m | L1 | ruzstd-fork | 0.0416 | 0.0426 | 4194413.0 | 100.00% | 0.77x |
+| rand4m | L3 | ruzstd-fork | 0.0421 | 0.0430 | 4194413.0 | 100.00% | 0.76x |
+| small4k | L1 | ruzstd-fork | 0.0063 | 0.0069 | 1389.0 | 104.91% | 0.14x |
+| small4k | L3 | ruzstd-fork | 0.0068 | 0.0075 | 1389.0 | 106.19% | 0.15x |
+| src4m | L1 | ruzstd-fork | 0.0688 | 0.0699 | 803653.0 | 112.39% | 0.90x |
+| src4m | L3 | ruzstd-fork | 0.0714 | 0.0727 | 803653.0 | 113.17% | 1.05x |
+| text4m | L1 | ruzstd-fork | 0.1284 | 0.1302 | 1615823.0 | 104.61% | 1.63x |
+| text4m | L3 | ruzstd-fork | 0.1277 | 0.1294 | 1615823.0 | 117.72% | 1.53x |
+| zeros1m | L1 | ruzstd-fork | 0.0162 | 0.0170 | 45.0 | 81.82% | 0.34x |
+| zeros1m | L3 | ruzstd-fork | 0.0165 | 0.0174 | 45.0 | 83.33% | 0.35x |
+| elf4m | L1 | ruzstd-release | 0.0915 | 0.0928 | 2197208.0 | 126.85% | 1.41x |
+| elf4m | L3 | ruzstd-release | 0.0923 | 0.0936 | 2197208.0 | 269.32% | 1.46x |
+| json1m | L1 | ruzstd-release | 0.0240 | 0.0248 | 332870.0 | 125.76% | 0.45x |
+| json1m | L3 | ruzstd-release | 0.0246 | 0.0254 | 332870.0 | 134.41% | 0.47x |
+| rand4m | L1 | ruzstd-release | 0.1278 | 0.1291 | 4194413.0 | 100.00% | 2.38x |
+| rand4m | L3 | ruzstd-release | 0.1275 | 0.1288 | 4194413.0 | 100.00% | 2.30x |
+| small4k | L1 | ruzstd-release | 0.0058 | 0.0066 | 1473.0 | 111.25% | 0.13x |
+| small4k | L3 | ruzstd-release | 0.0060 | 0.0066 | 1473.0 | 112.61% | 0.13x |
+| src4m | L1 | ruzstd-release | 0.0662 | 0.0672 | 1153809.0 | 161.36% | 0.87x |
+| src4m | L3 | ruzstd-release | 0.0662 | 0.0673 | 1153809.0 | 162.49% | 0.98x |
+| text4m | L1 | ruzstd-release | 0.0944 | 0.0958 | 1929225.0 | 124.89% | 1.20x |
+| text4m | L3 | ruzstd-release | 0.0931 | 0.0944 | 1929225.0 | 140.55% | 1.11x |
+| zeros1m | L1 | ruzstd-release | 0.0125 | 0.0133 | 45.0 | 81.82% | 0.26x |
+| zeros1m | L3 | ruzstd-release | 0.0126 | 0.0134 | 45.0 | 83.33% | 0.27x |
+| elf4m | L1 | ruzstd-upstream | 0.0935 | 0.0949 | 2197208.0 | 126.85% | 1.44x |
+| elf4m | L3 | ruzstd-upstream | 0.0930 | 0.0944 | 2197208.0 | 269.32% | 1.47x |
+| json1m | L1 | ruzstd-upstream | 0.0262 | 0.0273 | 332870.0 | 125.76% | 0.50x |
+| json1m | L3 | ruzstd-upstream | 0.0259 | 0.0269 | 332870.0 | 134.41% | 0.50x |
+| rand4m | L1 | ruzstd-upstream | 0.1298 | 0.1313 | 4194413.0 | 100.00% | 2.42x |
+| rand4m | L3 | ruzstd-upstream | 0.1297 | 0.1313 | 4194413.0 | 100.00% | 2.34x |
+| small4k | L1 | ruzstd-upstream | 0.0071 | 0.0079 | 1473.0 | 111.25% | 0.16x |
+| small4k | L3 | ruzstd-upstream | 0.0066 | 0.0073 | 1473.0 | 112.61% | 0.14x |
+| src4m | L1 | ruzstd-upstream | 0.0666 | 0.0676 | 1153809.0 | 161.36% | 0.87x |
+| src4m | L3 | ruzstd-upstream | 0.0659 | 0.0669 | 1153809.0 | 162.49% | 0.97x |
+| text4m | L1 | ruzstd-upstream | 0.0936 | 0.0948 | 1929225.0 | 124.89% | 1.19x |
+| text4m | L3 | ruzstd-upstream | 0.0928 | 0.0940 | 1929225.0 | 140.55% | 1.11x |
+| zeros1m | L1 | ruzstd-upstream | 0.0128 | 0.0138 | 45.0 | 81.82% | 0.27x |
+| zeros1m | L3 | ruzstd-upstream | 0.0120 | 0.0129 | 45.0 | 83.33% | 0.25x |
+| elf4m | L1 | zstd-c | 0.0650 | 0.0667 | 1732109.0 | n/a | n/a |
+| elf4m | L3 | zstd-c | 0.0634 | 0.0651 | 815837.0 | n/a | n/a |
+| json1m | L1 | zstd-c | 0.0528 | 0.0548 | 264692.0 | n/a | n/a |
+| json1m | L3 | zstd-c | 0.0520 | 0.0537 | 247659.0 | n/a | n/a |
+| rand4m | L1 | zstd-c | 0.0537 | 0.0557 | 4194414.0 | n/a | n/a |
+| rand4m | L3 | zstd-c | 0.0554 | 0.0574 | 4194414.0 | n/a | n/a |
+| small4k | L1 | zstd-c | 0.0451 | 0.0463 | 1324.0 | n/a | n/a |
+| small4k | L3 | zstd-c | 0.0463 | 0.0475 | 1308.0 | n/a | n/a |
+| src4m | L1 | zstd-c | 0.0765 | 0.0780 | 715050.0 | n/a | n/a |
+| src4m | L3 | zstd-c | 0.0678 | 0.0696 | 710100.0 | n/a | n/a |
+| text4m | L1 | zstd-c | 0.0787 | 0.0805 | 1544683.0 | n/a | n/a |
+| text4m | L3 | zstd-c | 0.0835 | 0.0860 | 1372652.0 | n/a | n/a |
+| zeros1m | L1 | zstd-c | 0.0479 | 0.0498 | 55.0 | n/a | n/a |
+| zeros1m | L3 | zstd-c | 0.0475 | 0.0494 | 54.0 | n/a | n/a |
+| elf4m | L1 | zstd-rs-avarok | 0.0503 | 0.0515 | 1748453.0 | 100.94% | 0.77x |
+| elf4m | L3 | zstd-rs-avarok | 0.0383 | 0.0396 | 826387.0 | 101.29% | 0.60x |
+| json1m | L1 | zstd-rs-avarok | 0.0163 | 0.0174 | 268446.0 | 101.42% | 0.31x |
+| json1m | L3 | zstd-rs-avarok | 0.0181 | 0.0190 | 249572.0 | 100.77% | 0.35x |
+| rand4m | L1 | zstd-rs-avarok | 0.0180 | 0.0188 | 4194410.0 | 100.00% | 0.33x |
+| rand4m | L3 | zstd-rs-avarok | 0.0191 | 0.0199 | 4194410.0 | 100.00% | 0.34x |
+| small4k | L1 | zstd-rs-avarok | 0.0060 | 0.0068 | 1330.0 | 100.45% | 0.13x |
+| small4k | L3 | zstd-rs-avarok | 0.0062 | 0.0068 | 1307.0 | 99.92% | 0.13x |
+| src4m | L1 | zstd-rs-avarok | 0.0370 | 0.0379 | 726802.0 | 101.64% | 0.48x |
+| src4m | L3 | zstd-rs-avarok | 0.0387 | 0.0396 | 714386.0 | 100.60% | 0.57x |
+| text4m | L1 | zstd-rs-avarok | 0.0615 | 0.0627 | 1561958.0 | 101.12% | 0.78x |
+| text4m | L3 | zstd-rs-avarok | 0.0596 | 0.0608 | 1381423.0 | 100.64% | 0.71x |
+| zeros1m | L1 | zstd-rs-avarok | 0.0073 | 0.0082 | 107.0 | 194.55% | 0.15x |
+| zeros1m | L3 | zstd-rs-avarok | 0.0065 | 0.0071 | 106.0 | 196.30% | 0.14x |
+
+decode (identical C frames unless the row says self:*)
+| corpus | frames | impl | cpu_s | wall_s | oracle | vs C cpu |
+|---|---|---|---|---|---|---|
+| elf4m | c1 | ruzstd-fork | 0.0319 | 0.0328 | ok | 0.55x |
+| elf4m | c3 | ruzstd-fork | 0.0296 | 0.0307 | ok | 0.53x |
+| elf4m | self:ruzstd-fork:L1 | ruzstd-fork | 0.0345 | 0.0355 | ok | 0.61x |
+| elf4m | self:ruzstd-fork:L3 | ruzstd-fork | 0.0334 | 0.0342 | ok | 0.59x |
+| elf4m | self:ruzstd-release:L1 | ruzstd-fork | 0.0293 | 0.0302 | ok | 0.50x |
+| elf4m | self:ruzstd-release:L3 | ruzstd-fork | 0.0294 | 0.0304 | ok | 0.51x |
+| elf4m | self:ruzstd-upstream:L1 | ruzstd-fork | 0.0313 | 0.0321 | ok | 0.56x |
+| elf4m | self:ruzstd-upstream:L3 | ruzstd-fork | 0.0319 | 0.0328 | ok | 0.55x |
+| elf4m | self:zstd-c:L1 | ruzstd-fork | 0.0334 | 0.0344 | ok | 0.55x |
+| elf4m | self:zstd-c:L3 | ruzstd-fork | 0.0299 | 0.0309 | ok | 0.49x |
+| elf4m | self:zstd-rs-avarok:L1 | ruzstd-fork | 0.0342 | 0.0351 | ok | 0.61x |
+| elf4m | self:zstd-rs-avarok:L3 | ruzstd-fork | 0.0312 | 0.0322 | ok | 0.55x |
+| json1m | c1 | ruzstd-fork | 0.0151 | 0.0161 | ok | 0.30x |
+| json1m | c3 | ruzstd-fork | 0.0164 | 0.0172 | ok | 0.32x |
+| json1m | self:ruzstd-fork:L1 | ruzstd-fork | 0.0133 | 0.0140 | ok | 0.26x |
+| json1m | self:ruzstd-fork:L3 | ruzstd-fork | 0.0140 | 0.0148 | ok | 0.29x |
+| json1m | self:ruzstd-release:L1 | ruzstd-fork | 0.0140 | 0.0149 | ok | 0.29x |
+| json1m | self:ruzstd-release:L3 | ruzstd-fork | 0.0143 | 0.0151 | ok | 0.28x |
+| json1m | self:ruzstd-upstream:L1 | ruzstd-fork | 0.0144 | 0.0153 | ok | 0.27x |
+| json1m | self:ruzstd-upstream:L3 | ruzstd-fork | 0.0141 | 0.0148 | ok | 0.27x |
+| json1m | self:zstd-c:L1 | ruzstd-fork | 0.0156 | 0.0164 | ok | 0.31x |
+| json1m | self:zstd-c:L3 | ruzstd-fork | 0.0160 | 0.0168 | ok | 0.33x |
+| json1m | self:zstd-rs-avarok:L1 | ruzstd-fork | 0.0153 | 0.0163 | ok | 0.30x |
+| json1m | self:zstd-rs-avarok:L3 | ruzstd-fork | 0.0160 | 0.0168 | ok | 0.30x |
+| rand4m | c1 | ruzstd-fork | 0.0151 | 0.0160 | ok | 0.30x |
+| rand4m | c3 | ruzstd-fork | 0.0201 | 0.0210 | ok | 0.37x |
+| rand4m | self:ruzstd-fork:L1 | ruzstd-fork | 0.0183 | 0.0191 | ok | 0.32x |
+| rand4m | self:ruzstd-fork:L3 | ruzstd-fork | 0.0181 | 0.0190 | ok | 0.33x |
+| rand4m | self:ruzstd-release:L1 | ruzstd-fork | 0.0167 | 0.0175 | ok | 0.32x |
+| rand4m | self:ruzstd-release:L3 | ruzstd-fork | 0.0163 | 0.0171 | ok | 0.32x |
+| rand4m | self:ruzstd-upstream:L1 | ruzstd-fork | 0.0180 | 0.0189 | ok | 0.35x |
+| rand4m | self:ruzstd-upstream:L3 | ruzstd-fork | 0.0184 | 0.0194 | ok | 0.34x |
+| rand4m | self:zstd-c:L1 | ruzstd-fork | 0.0162 | 0.0171 | ok | 0.29x |
+| rand4m | self:zstd-c:L3 | ruzstd-fork | 0.0196 | 0.0206 | ok | 0.37x |
+| rand4m | self:zstd-rs-avarok:L1 | ruzstd-fork | 0.0191 | 0.0200 | ok | 0.34x |
+| rand4m | self:zstd-rs-avarok:L3 | ruzstd-fork | 0.0218 | 0.0228 | ok | 0.41x |
+| small4k | c1 | ruzstd-fork | 0.0061 | 0.0067 | ok | 0.12x |
+| small4k | c3 | ruzstd-fork | 0.0065 | 0.0073 | ok | 0.13x |
+| small4k | self:ruzstd-fork:L1 | ruzstd-fork | 0.0064 | 0.0071 | ok | 0.13x |
+| small4k | self:ruzstd-fork:L3 | ruzstd-fork | 0.0066 | 0.0073 | ok | 0.13x |
+| small4k | self:ruzstd-release:L1 | ruzstd-fork | 0.0059 | 0.0066 | ok | 0.13x |
+| small4k | self:ruzstd-release:L3 | ruzstd-fork | 0.0063 | 0.0070 | ok | 0.13x |
+| small4k | self:ruzstd-upstream:L1 | ruzstd-fork | 0.0067 | 0.0073 | ok | 0.14x |
+| small4k | self:ruzstd-upstream:L3 | ruzstd-fork | 0.0064 | 0.0071 | ok | 0.13x |
+| small4k | self:zstd-c:L1 | ruzstd-fork | 0.0065 | 0.0072 | ok | 0.14x |
+| small4k | self:zstd-c:L3 | ruzstd-fork | 0.0062 | 0.0069 | ok | 0.13x |
+| small4k | self:zstd-rs-avarok:L1 | ruzstd-fork | 0.0064 | 0.0070 | ok | 0.13x |
+| small4k | self:zstd-rs-avarok:L3 | ruzstd-fork | 0.0061 | 0.0068 | ok | 0.13x |
+| src4m | c1 | ruzstd-fork | 0.0323 | 0.0335 | ok | 0.53x |
+| src4m | c3 | ruzstd-fork | 0.0343 | 0.0353 | ok | 0.57x |
+| src4m | self:ruzstd-fork:L1 | ruzstd-fork | 0.0285 | 0.0293 | ok | 0.49x |
+| src4m | self:ruzstd-fork:L3 | ruzstd-fork | 0.0281 | 0.0289 | ok | 0.50x |
+| src4m | self:ruzstd-release:L1 | ruzstd-fork | 0.0309 | 0.0317 | ok | 0.54x |
+| src4m | self:ruzstd-release:L3 | ruzstd-fork | 0.0317 | 0.0326 | ok | 0.54x |
+| src4m | self:ruzstd-upstream:L1 | ruzstd-fork | 0.0307 | 0.0315 | ok | 0.56x |
+| src4m | self:ruzstd-upstream:L3 | ruzstd-fork | 0.0317 | 0.0327 | ok | 0.57x |
+| src4m | self:zstd-c:L1 | ruzstd-fork | 0.0357 | 0.0368 | ok | 0.61x |
+| src4m | self:zstd-c:L3 | ruzstd-fork | 0.0327 | 0.0336 | ok | 0.55x |
+| src4m | self:zstd-rs-avarok:L1 | ruzstd-fork | 0.0312 | 0.0319 | ok | 0.56x |
+| src4m | self:zstd-rs-avarok:L3 | ruzstd-fork | 0.0334 | 0.0345 | ok | 0.58x |
+| text4m | c1 | ruzstd-fork | 0.0423 | 0.0433 | ok | 0.70x |
+| text4m | c3 | ruzstd-fork | 0.0414 | 0.0424 | ok | 0.68x |
+| text4m | self:ruzstd-fork:L1 | ruzstd-fork | 0.0459 | 0.0471 | ok | 0.78x |
+| text4m | self:ruzstd-fork:L3 | ruzstd-fork | 0.0445 | 0.0454 | ok | 0.74x |
+| text4m | self:ruzstd-release:L1 | ruzstd-fork | 0.0468 | 0.0478 | ok | 0.74x |
+| text4m | self:ruzstd-release:L3 | ruzstd-fork | 0.0463 | 0.0473 | ok | 0.80x |
+| text4m | self:ruzstd-upstream:L1 | ruzstd-fork | 0.0455 | 0.0465 | ok | 0.76x |
+| text4m | self:ruzstd-upstream:L3 | ruzstd-fork | 0.0457 | 0.0466 | ok | 0.76x |
+| text4m | self:zstd-c:L1 | ruzstd-fork | 0.0419 | 0.0429 | ok | 0.70x |
+| text4m | self:zstd-c:L3 | ruzstd-fork | 0.0433 | 0.0444 | ok | 0.70x |
+| text4m | self:zstd-rs-avarok:L1 | ruzstd-fork | 0.0405 | 0.0415 | ok | 0.71x |
+| text4m | self:zstd-rs-avarok:L3 | ruzstd-fork | 0.0423 | 0.0433 | ok | 0.71x |
+| zeros1m | c1 | ruzstd-fork | 0.0085 | 0.0092 | ok | 0.18x |
+| zeros1m | c3 | ruzstd-fork | 0.0088 | 0.0094 | ok | 0.18x |
+| zeros1m | self:ruzstd-fork:L1 | ruzstd-fork | 0.0085 | 0.0092 | ok | 0.18x |
+| zeros1m | self:ruzstd-fork:L3 | ruzstd-fork | 0.0087 | 0.0094 | ok | 0.19x |
+| zeros1m | self:ruzstd-release:L1 | ruzstd-fork | 0.0088 | 0.0095 | ok | 0.18x |
+| zeros1m | self:ruzstd-release:L3 | ruzstd-fork | 0.0085 | 0.0092 | ok | 0.17x |
+| zeros1m | self:ruzstd-upstream:L1 | ruzstd-fork | 0.0082 | 0.0088 | ok | 0.17x |
+| zeros1m | self:ruzstd-upstream:L3 | ruzstd-fork | 0.0082 | 0.0088 | ok | 0.17x |
+| zeros1m | self:zstd-c:L1 | ruzstd-fork | 0.0083 | 0.0090 | ok | 0.18x |
+| zeros1m | self:zstd-c:L3 | ruzstd-fork | 0.0094 | 0.0101 | ok | 0.19x |
+| zeros1m | self:zstd-rs-avarok:L1 | ruzstd-fork | 0.0083 | 0.0091 | ok | 0.18x |
+| zeros1m | self:zstd-rs-avarok:L3 | ruzstd-fork | 0.0092 | 0.0099 | ok | 0.19x |
+| elf4m | c1 | ruzstd-release | 0.0398 | 0.0409 | ok | 0.68x |
+| elf4m | c3 | ruzstd-release | 0.0302 | 0.0312 | ok | 0.54x |
+| elf4m | self:ruzstd-fork:L1 | ruzstd-release | 0.0428 | 0.0438 | ok | 0.76x |
+| elf4m | self:ruzstd-fork:L3 | ruzstd-release | 0.0413 | 0.0422 | ok | 0.73x |
+| elf4m | self:ruzstd-release:L1 | ruzstd-release | 0.0333 | 0.0344 | ok | 0.56x |
+| elf4m | self:ruzstd-release:L3 | ruzstd-release | 0.0306 | 0.0315 | ok | 0.53x |
+| elf4m | self:ruzstd-upstream:L1 | ruzstd-release | 0.0356 | 0.0367 | ok | 0.64x |
+| elf4m | self:ruzstd-upstream:L3 | ruzstd-release | 0.0358 | 0.0369 | ok | 0.61x |
+| elf4m | self:zstd-c:L1 | ruzstd-release | 0.0403 | 0.0413 | ok | 0.66x |
+| elf4m | self:zstd-c:L3 | ruzstd-release | 0.0314 | 0.0325 | ok | 0.52x |
+| elf4m | self:zstd-rs-avarok:L1 | ruzstd-release | 0.0427 | 0.0443 | ok | 0.76x |
+| elf4m | self:zstd-rs-avarok:L3 | ruzstd-release | 0.0339 | 0.0349 | ok | 0.60x |
+| json1m | c1 | ruzstd-release | 0.0148 | 0.0156 | ok | 0.29x |
+| json1m | c3 | ruzstd-release | 0.0139 | 0.0147 | ok | 0.27x |
+| json1m | self:ruzstd-fork:L1 | ruzstd-release | 0.0147 | 0.0156 | ok | 0.29x |
+| json1m | self:ruzstd-fork:L3 | ruzstd-release | 0.0147 | 0.0156 | ok | 0.30x |
+| json1m | self:ruzstd-release:L1 | ruzstd-release | 0.0147 | 0.0155 | ok | 0.30x |
+| json1m | self:ruzstd-release:L3 | ruzstd-release | 0.0156 | 0.0165 | ok | 0.31x |
+| json1m | self:ruzstd-upstream:L1 | ruzstd-release | 0.0157 | 0.0168 | ok | 0.30x |
+| json1m | self:ruzstd-upstream:L3 | ruzstd-release | 0.0145 | 0.0154 | ok | 0.28x |
+| json1m | self:zstd-c:L1 | ruzstd-release | 0.0140 | 0.0148 | ok | 0.28x |
+| json1m | self:zstd-c:L3 | ruzstd-release | 0.0130 | 0.0138 | ok | 0.27x |
+| json1m | self:zstd-rs-avarok:L1 | ruzstd-release | 0.0151 | 0.0161 | ok | 0.30x |
+| json1m | self:zstd-rs-avarok:L3 | ruzstd-release | 0.0142 | 0.0152 | ok | 0.27x |
+| rand4m | c1 | ruzstd-release | 0.0166 | 0.0176 | ok | 0.33x |
+| rand4m | c3 | ruzstd-release | 0.0201 | 0.0211 | ok | 0.37x |
+| rand4m | self:ruzstd-fork:L1 | ruzstd-release | 0.0213 | 0.0222 | ok | 0.38x |
+| rand4m | self:ruzstd-fork:L3 | ruzstd-release | 0.0219 | 0.0229 | ok | 0.40x |
+| rand4m | self:ruzstd-release:L1 | ruzstd-release | 0.0208 | 0.0218 | ok | 0.39x |
+| rand4m | self:ruzstd-release:L3 | ruzstd-release | 0.0210 | 0.0219 | ok | 0.41x |
+| rand4m | self:ruzstd-upstream:L1 | ruzstd-release | 0.0212 | 0.0221 | ok | 0.42x |
+| rand4m | self:ruzstd-upstream:L3 | ruzstd-release | 0.0210 | 0.0221 | ok | 0.39x |
+| rand4m | self:zstd-c:L1 | ruzstd-release | 0.0182 | 0.0192 | ok | 0.33x |
+| rand4m | self:zstd-c:L3 | ruzstd-release | 0.0202 | 0.0211 | ok | 0.38x |
+| rand4m | self:zstd-rs-avarok:L1 | ruzstd-release | 0.0210 | 0.0219 | ok | 0.38x |
+| rand4m | self:zstd-rs-avarok:L3 | ruzstd-release | 0.0213 | 0.0222 | ok | 0.40x |
+| small4k | c1 | ruzstd-release | 0.0062 | 0.0070 | ok | 0.13x |
+| small4k | c3 | ruzstd-release | 0.0067 | 0.0075 | ok | 0.13x |
+| small4k | self:ruzstd-fork:L1 | ruzstd-release | 0.0065 | 0.0073 | ok | 0.13x |
+| small4k | self:ruzstd-fork:L3 | ruzstd-release | 0.0066 | 0.0075 | ok | 0.13x |
+| small4k | self:ruzstd-release:L1 | ruzstd-release | 0.0062 | 0.0070 | ok | 0.13x |
+| small4k | self:ruzstd-release:L3 | ruzstd-release | 0.0064 | 0.0072 | ok | 0.13x |
+| small4k | self:ruzstd-upstream:L1 | ruzstd-release | 0.0066 | 0.0075 | ok | 0.13x |
+| small4k | self:ruzstd-upstream:L3 | ruzstd-release | 0.0068 | 0.0078 | ok | 0.14x |
+| small4k | self:zstd-c:L1 | ruzstd-release | 0.0067 | 0.0077 | ok | 0.14x |
+| small4k | self:zstd-c:L3 | ruzstd-release | 0.0062 | 0.0069 | ok | 0.13x |
+| small4k | self:zstd-rs-avarok:L1 | ruzstd-release | 0.0068 | 0.0076 | ok | 0.14x |
+| small4k | self:zstd-rs-avarok:L3 | ruzstd-release | 0.0059 | 0.0066 | ok | 0.12x |
+| src4m | c1 | ruzstd-release | 0.0409 | 0.0421 | ok | 0.68x |
+| src4m | c3 | ruzstd-release | 0.0352 | 0.0364 | ok | 0.59x |
+| src4m | self:ruzstd-fork:L1 | ruzstd-release | 0.0324 | 0.0334 | ok | 0.55x |
+| src4m | self:ruzstd-fork:L3 | ruzstd-release | 0.0324 | 0.0333 | ok | 0.58x |
+| src4m | self:ruzstd-release:L1 | ruzstd-release | 0.0334 | 0.0344 | ok | 0.58x |
+| src4m | self:ruzstd-release:L3 | ruzstd-release | 0.0352 | 0.0362 | ok | 0.60x |
+| src4m | self:ruzstd-upstream:L1 | ruzstd-release | 0.0352 | 0.0362 | ok | 0.64x |
+| src4m | self:ruzstd-upstream:L3 | ruzstd-release | 0.0349 | 0.0358 | ok | 0.63x |
+| src4m | self:zstd-c:L1 | ruzstd-release | 0.0386 | 0.0397 | ok | 0.66x |
+| src4m | self:zstd-c:L3 | ruzstd-release | 0.0344 | 0.0356 | ok | 0.58x |
+| src4m | self:zstd-rs-avarok:L1 | ruzstd-release | 0.0348 | 0.0358 | ok | 0.62x |
+| src4m | self:zstd-rs-avarok:L3 | ruzstd-release | 0.0342 | 0.0354 | ok | 0.59x |
+| text4m | c1 | ruzstd-release | 0.0460 | 0.0474 | ok | 0.76x |
+| text4m | c3 | ruzstd-release | 0.0409 | 0.0419 | ok | 0.67x |
+| text4m | self:ruzstd-fork:L1 | ruzstd-release | 0.0489 | 0.0500 | ok | 0.83x |
+| text4m | self:ruzstd-fork:L3 | ruzstd-release | 0.0485 | 0.0496 | ok | 0.80x |
+| text4m | self:ruzstd-release:L1 | ruzstd-release | 0.0492 | 0.0502 | ok | 0.78x |
+| text4m | self:ruzstd-release:L3 | ruzstd-release | 0.0500 | 0.0511 | ok | 0.86x |
+| text4m | self:ruzstd-upstream:L1 | ruzstd-release | 0.0474 | 0.0483 | ok | 0.79x |
+| text4m | self:ruzstd-upstream:L3 | ruzstd-release | 0.0496 | 0.0507 | ok | 0.83x |
+| text4m | self:zstd-c:L1 | ruzstd-release | 0.0443 | 0.0454 | ok | 0.74x |
+| text4m | self:zstd-c:L3 | ruzstd-release | 0.0422 | 0.0434 | ok | 0.69x |
+| text4m | self:zstd-rs-avarok:L1 | ruzstd-release | 0.0439 | 0.0451 | ok | 0.77x |
+| text4m | self:zstd-rs-avarok:L3 | ruzstd-release | 0.0411 | 0.0421 | ok | 0.69x |
+| zeros1m | c1 | ruzstd-release | 0.0109 | 0.0117 | ok | 0.22x |
+| zeros1m | c3 | ruzstd-release | 0.0096 | 0.0106 | ok | 0.20x |
+| zeros1m | self:ruzstd-fork:L1 | ruzstd-release | 0.0085 | 0.0094 | ok | 0.18x |
+| zeros1m | self:ruzstd-fork:L3 | ruzstd-release | 0.0088 | 0.0097 | ok | 0.19x |
+| zeros1m | self:ruzstd-release:L1 | ruzstd-release | 0.0083 | 0.0091 | ok | 0.17x |
+| zeros1m | self:ruzstd-release:L3 | ruzstd-release | 0.0091 | 0.0099 | ok | 0.19x |
+| zeros1m | self:ruzstd-upstream:L1 | ruzstd-release | 0.0090 | 0.0098 | ok | 0.18x |
+| zeros1m | self:ruzstd-upstream:L3 | ruzstd-release | 0.0093 | 0.0101 | ok | 0.19x |
+| zeros1m | self:zstd-c:L1 | ruzstd-release | 0.0100 | 0.0108 | ok | 0.21x |
+| zeros1m | self:zstd-c:L3 | ruzstd-release | 0.0107 | 0.0115 | ok | 0.22x |
+| zeros1m | self:zstd-rs-avarok:L1 | ruzstd-release | 0.0192 | 0.0201 | ok | 0.42x |
+| zeros1m | self:zstd-rs-avarok:L3 | ruzstd-release | 0.0199 | 0.0207 | ok | 0.42x |
+| elf4m | c1 | ruzstd-upstream | 0.0401 | 0.0411 | ok | 0.69x |
+| elf4m | c3 | ruzstd-upstream | 0.0323 | 0.0333 | ok | 0.58x |
+| elf4m | self:ruzstd-fork:L1 | ruzstd-upstream | 0.0384 | 0.0393 | ok | 0.68x |
+| elf4m | self:ruzstd-fork:L3 | ruzstd-upstream | 0.0400 | 0.0409 | ok | 0.70x |
+| elf4m | self:ruzstd-release:L1 | ruzstd-upstream | 0.0303 | 0.0313 | ok | 0.51x |
+| elf4m | self:ruzstd-release:L3 | ruzstd-upstream | 0.0307 | 0.0316 | ok | 0.53x |
+| elf4m | self:ruzstd-upstream:L1 | ruzstd-upstream | 0.0323 | 0.0331 | ok | 0.58x |
+| elf4m | self:ruzstd-upstream:L3 | ruzstd-upstream | 0.0314 | 0.0323 | ok | 0.54x |
+| elf4m | self:zstd-c:L1 | ruzstd-upstream | 0.0400 | 0.0411 | ok | 0.66x |
+| elf4m | self:zstd-c:L3 | ruzstd-upstream | 0.0305 | 0.0315 | ok | 0.51x |
+| elf4m | self:zstd-rs-avarok:L1 | ruzstd-upstream | 0.0408 | 0.0417 | ok | 0.73x |
+| elf4m | self:zstd-rs-avarok:L3 | ruzstd-upstream | 0.0325 | 0.0334 | ok | 0.57x |
+| json1m | c1 | ruzstd-upstream | 0.0159 | 0.0168 | ok | 0.31x |
+| json1m | c3 | ruzstd-upstream | 0.0163 | 0.0171 | ok | 0.32x |
+| json1m | self:ruzstd-fork:L1 | ruzstd-upstream | 0.0140 | 0.0147 | ok | 0.28x |
+| json1m | self:ruzstd-fork:L3 | ruzstd-upstream | 0.0142 | 0.0150 | ok | 0.29x |
+| json1m | self:ruzstd-release:L1 | ruzstd-upstream | 0.0143 | 0.0150 | ok | 0.29x |
+| json1m | self:ruzstd-release:L3 | ruzstd-upstream | 0.0148 | 0.0156 | ok | 0.29x |
+| json1m | self:ruzstd-upstream:L1 | ruzstd-upstream | 0.0145 | 0.0153 | ok | 0.28x |
+| json1m | self:ruzstd-upstream:L3 | ruzstd-upstream | 0.0145 | 0.0153 | ok | 0.28x |
+| json1m | self:zstd-c:L1 | ruzstd-upstream | 0.0154 | 0.0162 | ok | 0.31x |
+| json1m | self:zstd-c:L3 | ruzstd-upstream | 0.0159 | 0.0167 | ok | 0.33x |
+| json1m | self:zstd-rs-avarok:L1 | ruzstd-upstream | 0.0157 | 0.0165 | ok | 0.31x |
+| json1m | self:zstd-rs-avarok:L3 | ruzstd-upstream | 0.0165 | 0.0174 | ok | 0.31x |
+| rand4m | c1 | ruzstd-upstream | 0.0157 | 0.0166 | ok | 0.31x |
+| rand4m | c3 | ruzstd-upstream | 0.0194 | 0.0209 | ok | 0.36x |
+| rand4m | self:ruzstd-fork:L1 | ruzstd-upstream | 0.0185 | 0.0194 | ok | 0.33x |
+| rand4m | self:ruzstd-fork:L3 | ruzstd-upstream | 0.0167 | 0.0176 | ok | 0.31x |
+| rand4m | self:ruzstd-release:L1 | ruzstd-upstream | 0.0171 | 0.0179 | ok | 0.32x |
+| rand4m | self:ruzstd-release:L3 | ruzstd-upstream | 0.0177 | 0.0186 | ok | 0.35x |
+| rand4m | self:ruzstd-upstream:L1 | ruzstd-upstream | 0.0188 | 0.0198 | ok | 0.37x |
+| rand4m | self:ruzstd-upstream:L3 | ruzstd-upstream | 0.0183 | 0.0193 | ok | 0.34x |
+| rand4m | self:zstd-c:L1 | ruzstd-upstream | 0.0152 | 0.0160 | ok | 0.27x |
+| rand4m | self:zstd-c:L3 | ruzstd-upstream | 0.0193 | 0.0202 | ok | 0.37x |
+| rand4m | self:zstd-rs-avarok:L1 | ruzstd-upstream | 0.0186 | 0.0194 | ok | 0.34x |
+| rand4m | self:zstd-rs-avarok:L3 | ruzstd-upstream | 0.0212 | 0.0221 | ok | 0.40x |
+| small4k | c1 | ruzstd-upstream | 0.0055 | 0.0061 | ok | 0.11x |
+| small4k | c3 | ruzstd-upstream | 0.0064 | 0.0072 | ok | 0.13x |
+| small4k | self:ruzstd-fork:L1 | ruzstd-upstream | 0.0062 | 0.0068 | ok | 0.13x |
+| small4k | self:ruzstd-fork:L3 | ruzstd-upstream | 0.0063 | 0.0069 | ok | 0.13x |
+| small4k | self:ruzstd-release:L1 | ruzstd-upstream | 0.0061 | 0.0067 | ok | 0.13x |
+| small4k | self:ruzstd-release:L3 | ruzstd-upstream | 0.0063 | 0.0070 | ok | 0.13x |
+| small4k | self:ruzstd-upstream:L1 | ruzstd-upstream | 0.0059 | 0.0065 | ok | 0.12x |
+| small4k | self:ruzstd-upstream:L3 | ruzstd-upstream | 0.0064 | 0.0071 | ok | 0.13x |
+| small4k | self:zstd-c:L1 | ruzstd-upstream | 0.0064 | 0.0071 | ok | 0.14x |
+| small4k | self:zstd-c:L3 | ruzstd-upstream | 0.0061 | 0.0068 | ok | 0.13x |
+| small4k | self:zstd-rs-avarok:L1 | ruzstd-upstream | 0.0058 | 0.0065 | ok | 0.12x |
+| small4k | self:zstd-rs-avarok:L3 | ruzstd-upstream | 0.0057 | 0.0063 | ok | 0.12x |
+| src4m | c1 | ruzstd-upstream | 0.0389 | 0.0401 | ok | 0.64x |
+| src4m | c3 | ruzstd-upstream | 0.0356 | 0.0367 | ok | 0.59x |
+| src4m | self:ruzstd-fork:L1 | ruzstd-upstream | 0.0300 | 0.0309 | ok | 0.51x |
+| src4m | self:ruzstd-fork:L3 | ruzstd-upstream | 0.0298 | 0.0307 | ok | 0.53x |
+| src4m | self:ruzstd-release:L1 | ruzstd-upstream | 0.0326 | 0.0335 | ok | 0.57x |
+| src4m | self:ruzstd-release:L3 | ruzstd-upstream | 0.0336 | 0.0345 | ok | 0.58x |
+| src4m | self:ruzstd-upstream:L1 | ruzstd-upstream | 0.0326 | 0.0334 | ok | 0.59x |
+| src4m | self:ruzstd-upstream:L3 | ruzstd-upstream | 0.0332 | 0.0342 | ok | 0.60x |
+| src4m | self:zstd-c:L1 | ruzstd-upstream | 0.0386 | 0.0403 | ok | 0.66x |
+| src4m | self:zstd-c:L3 | ruzstd-upstream | 0.0333 | 0.0343 | ok | 0.56x |
+| src4m | self:zstd-rs-avarok:L1 | ruzstd-upstream | 0.0340 | 0.0348 | ok | 0.61x |
+| src4m | self:zstd-rs-avarok:L3 | ruzstd-upstream | 0.0345 | 0.0355 | ok | 0.60x |
+| text4m | c1 | ruzstd-upstream | 0.0449 | 0.0461 | ok | 0.74x |
+| text4m | c3 | ruzstd-upstream | 0.0403 | 0.0414 | ok | 0.66x |
+| text4m | self:ruzstd-fork:L1 | ruzstd-upstream | 0.0466 | 0.0476 | ok | 0.79x |
+| text4m | self:ruzstd-fork:L3 | ruzstd-upstream | 0.0469 | 0.0479 | ok | 0.77x |
+| text4m | self:ruzstd-release:L1 | ruzstd-upstream | 0.0473 | 0.0483 | ok | 0.75x |
+| text4m | self:ruzstd-release:L3 | ruzstd-upstream | 0.0475 | 0.0485 | ok | 0.82x |
+| text4m | self:ruzstd-upstream:L1 | ruzstd-upstream | 0.0480 | 0.0491 | ok | 0.80x |
+| text4m | self:ruzstd-upstream:L3 | ruzstd-upstream | 0.0477 | 0.0486 | ok | 0.79x |
+| text4m | self:zstd-c:L1 | ruzstd-upstream | 0.0433 | 0.0443 | ok | 0.73x |
+| text4m | self:zstd-c:L3 | ruzstd-upstream | 0.0421 | 0.0431 | ok | 0.68x |
+| text4m | self:zstd-rs-avarok:L1 | ruzstd-upstream | 0.0439 | 0.0449 | ok | 0.77x |
+| text4m | self:zstd-rs-avarok:L3 | ruzstd-upstream | 0.0435 | 0.0445 | ok | 0.73x |
+| zeros1m | c1 | ruzstd-upstream | 0.0107 | 0.0115 | ok | 0.22x |
+| zeros1m | c3 | ruzstd-upstream | 0.0105 | 0.0113 | ok | 0.22x |
+| zeros1m | self:ruzstd-fork:L1 | ruzstd-upstream | 0.0077 | 0.0084 | ok | 0.16x |
+| zeros1m | self:ruzstd-fork:L3 | ruzstd-upstream | 0.0082 | 0.0089 | ok | 0.18x |
+| zeros1m | self:ruzstd-release:L1 | ruzstd-upstream | 0.0075 | 0.0082 | ok | 0.16x |
+| zeros1m | self:ruzstd-release:L3 | ruzstd-upstream | 0.0085 | 0.0091 | ok | 0.17x |
+| zeros1m | self:ruzstd-upstream:L1 | ruzstd-upstream | 0.0081 | 0.0087 | ok | 0.17x |
+| zeros1m | self:ruzstd-upstream:L3 | ruzstd-upstream | 0.0089 | 0.0097 | ok | 0.18x |
+| zeros1m | self:zstd-c:L1 | ruzstd-upstream | 0.0102 | 0.0108 | ok | 0.22x |
+| zeros1m | self:zstd-c:L3 | ruzstd-upstream | 0.0110 | 0.0118 | ok | 0.23x |
+| zeros1m | self:zstd-rs-avarok:L1 | ruzstd-upstream | 0.0187 | 0.0195 | ok | 0.41x |
+| zeros1m | self:zstd-rs-avarok:L3 | ruzstd-upstream | 0.0209 | 0.0216 | ok | 0.44x |
+| elf4m | c1 | zstd-c | 0.0582 | 0.0595 | ok | n/a |
+| elf4m | c3 | zstd-c | 0.0555 | 0.0568 | ok | n/a |
+| elf4m | self:ruzstd-fork:L1 | zstd-c | 0.0566 | 0.0580 | ok | n/a |
+| elf4m | self:ruzstd-fork:L3 | zstd-c | 0.0568 | 0.0581 | ok | n/a |
+| elf4m | self:ruzstd-release:L1 | zstd-c | 0.0589 | 0.0607 | ok | n/a |
+| elf4m | self:ruzstd-release:L3 | zstd-c | 0.0575 | 0.0588 | ok | n/a |
+| elf4m | self:ruzstd-upstream:L1 | zstd-c | 0.0555 | 0.0571 | ok | n/a |
+| elf4m | self:ruzstd-upstream:L3 | zstd-c | 0.0585 | 0.0599 | ok | n/a |
+| elf4m | self:zstd-c:L1 | zstd-c | 0.0607 | 0.0621 | ok | n/a |
+| elf4m | self:zstd-c:L3 | zstd-c | 0.0605 | 0.0620 | ok | n/a |
+| elf4m | self:zstd-rs-avarok:L1 | zstd-c | 0.0559 | 0.0572 | ok | n/a |
+| elf4m | self:zstd-rs-avarok:L3 | zstd-c | 0.0569 | 0.0584 | ok | n/a |
+| json1m | c1 | zstd-c | 0.0510 | 0.0524 | ok | n/a |
+| json1m | c3 | zstd-c | 0.0510 | 0.0524 | ok | n/a |
+| json1m | self:ruzstd-fork:L1 | zstd-c | 0.0502 | 0.0515 | ok | n/a |
+| json1m | self:ruzstd-fork:L3 | zstd-c | 0.0492 | 0.0504 | ok | n/a |
+| json1m | self:ruzstd-release:L1 | zstd-c | 0.0490 | 0.0501 | ok | n/a |
+| json1m | self:ruzstd-release:L3 | zstd-c | 0.0508 | 0.0521 | ok | n/a |
+| json1m | self:ruzstd-upstream:L1 | zstd-c | 0.0525 | 0.0538 | ok | n/a |
+| json1m | self:ruzstd-upstream:L3 | zstd-c | 0.0524 | 0.0538 | ok | n/a |
+| json1m | self:zstd-c:L1 | zstd-c | 0.0498 | 0.0510 | ok | n/a |
+| json1m | self:zstd-c:L3 | zstd-c | 0.0481 | 0.0492 | ok | n/a |
+| json1m | self:zstd-rs-avarok:L1 | zstd-c | 0.0510 | 0.0522 | ok | n/a |
+| json1m | self:zstd-rs-avarok:L3 | zstd-c | 0.0536 | 0.0551 | ok | n/a |
+| rand4m | c1 | zstd-c | 0.0510 | 0.0525 | ok | n/a |
+| rand4m | c3 | zstd-c | 0.0541 | 0.0556 | ok | n/a |
+| rand4m | self:ruzstd-fork:L1 | zstd-c | 0.0563 | 0.0581 | ok | n/a |
+| rand4m | self:ruzstd-fork:L3 | zstd-c | 0.0548 | 0.0564 | ok | n/a |
+| rand4m | self:ruzstd-release:L1 | zstd-c | 0.0529 | 0.0545 | ok | n/a |
+| rand4m | self:ruzstd-release:L3 | zstd-c | 0.0511 | 0.0526 | ok | n/a |
+| rand4m | self:ruzstd-upstream:L1 | zstd-c | 0.0507 | 0.0522 | ok | n/a |
+| rand4m | self:ruzstd-upstream:L3 | zstd-c | 0.0543 | 0.0562 | ok | n/a |
+| rand4m | self:zstd-c:L1 | zstd-c | 0.0553 | 0.0567 | ok | n/a |
+| rand4m | self:zstd-c:L3 | zstd-c | 0.0526 | 0.0539 | ok | n/a |
+| rand4m | self:zstd-rs-avarok:L1 | zstd-c | 0.0553 | 0.0573 | ok | n/a |
+| rand4m | self:zstd-rs-avarok:L3 | zstd-c | 0.0529 | 0.0543 | ok | n/a |
+| small4k | c1 | zstd-c | 0.0487 | 0.0503 | ok | n/a |
+| small4k | c3 | zstd-c | 0.0497 | 0.0511 | ok | n/a |
+| small4k | self:ruzstd-fork:L1 | zstd-c | 0.0488 | 0.0501 | ok | n/a |
+| small4k | self:ruzstd-fork:L3 | zstd-c | 0.0493 | 0.0505 | ok | n/a |
+| small4k | self:ruzstd-release:L1 | zstd-c | 0.0470 | 0.0482 | ok | n/a |
+| small4k | self:ruzstd-release:L3 | zstd-c | 0.0478 | 0.0491 | ok | n/a |
+| small4k | self:ruzstd-upstream:L1 | zstd-c | 0.0488 | 0.0501 | ok | n/a |
+| small4k | self:ruzstd-upstream:L3 | zstd-c | 0.0485 | 0.0498 | ok | n/a |
+| small4k | self:zstd-c:L1 | zstd-c | 0.0468 | 0.0481 | ok | n/a |
+| small4k | self:zstd-c:L3 | zstd-c | 0.0470 | 0.0484 | ok | n/a |
+| small4k | self:zstd-rs-avarok:L1 | zstd-c | 0.0484 | 0.0497 | ok | n/a |
+| small4k | self:zstd-rs-avarok:L3 | zstd-c | 0.0476 | 0.0490 | ok | n/a |
+| src4m | c1 | zstd-c | 0.0605 | 0.0620 | ok | n/a |
+| src4m | c3 | zstd-c | 0.0601 | 0.0615 | ok | n/a |
+| src4m | self:ruzstd-fork:L1 | zstd-c | 0.0586 | 0.0600 | ok | n/a |
+| src4m | self:ruzstd-fork:L3 | zstd-c | 0.0558 | 0.0571 | ok | n/a |
+| src4m | self:ruzstd-release:L1 | zstd-c | 0.0573 | 0.0587 | ok | n/a |
+| src4m | self:ruzstd-release:L3 | zstd-c | 0.0583 | 0.0596 | ok | n/a |
+| src4m | self:ruzstd-upstream:L1 | zstd-c | 0.0552 | 0.0565 | ok | n/a |
+| src4m | self:ruzstd-upstream:L3 | zstd-c | 0.0551 | 0.0568 | ok | n/a |
+| src4m | self:zstd-c:L1 | zstd-c | 0.0586 | 0.0600 | ok | n/a |
+| src4m | self:zstd-c:L3 | zstd-c | 0.0595 | 0.0609 | ok | n/a |
+| src4m | self:zstd-rs-avarok:L1 | zstd-c | 0.0557 | 0.0571 | ok | n/a |
+| src4m | self:zstd-rs-avarok:L3 | zstd-c | 0.0579 | 0.0592 | ok | n/a |
+| text4m | c1 | zstd-c | 0.0605 | 0.0620 | ok | n/a |
+| text4m | c3 | zstd-c | 0.0607 | 0.0620 | ok | n/a |
+| text4m | self:ruzstd-fork:L1 | zstd-c | 0.0592 | 0.0605 | ok | n/a |
+| text4m | self:ruzstd-fork:L3 | zstd-c | 0.0606 | 0.0619 | ok | n/a |
+| text4m | self:ruzstd-release:L1 | zstd-c | 0.0630 | 0.0645 | ok | n/a |
+| text4m | self:ruzstd-release:L3 | zstd-c | 0.0579 | 0.0593 | ok | n/a |
+| text4m | self:ruzstd-upstream:L1 | zstd-c | 0.0602 | 0.0615 | ok | n/a |
+| text4m | self:ruzstd-upstream:L3 | zstd-c | 0.0600 | 0.0613 | ok | n/a |
+| text4m | self:zstd-c:L1 | zstd-c | 0.0597 | 0.0611 | ok | n/a |
+| text4m | self:zstd-c:L3 | zstd-c | 0.0616 | 0.0628 | ok | n/a |
+| text4m | self:zstd-rs-avarok:L1 | zstd-c | 0.0568 | 0.0581 | ok | n/a |
+| text4m | self:zstd-rs-avarok:L3 | zstd-c | 0.0597 | 0.0612 | ok | n/a |
+| zeros1m | c1 | zstd-c | 0.0485 | 0.0497 | ok | n/a |
+| zeros1m | c3 | zstd-c | 0.0481 | 0.0493 | ok | n/a |
+| zeros1m | self:ruzstd-fork:L1 | zstd-c | 0.0473 | 0.0484 | ok | n/a |
+| zeros1m | self:ruzstd-fork:L3 | zstd-c | 0.0456 | 0.0469 | ok | n/a |
+| zeros1m | self:ruzstd-release:L1 | zstd-c | 0.0486 | 0.0498 | ok | n/a |
+| zeros1m | self:ruzstd-release:L3 | zstd-c | 0.0490 | 0.0502 | ok | n/a |
+| zeros1m | self:ruzstd-upstream:L1 | zstd-c | 0.0488 | 0.0499 | ok | n/a |
+| zeros1m | self:ruzstd-upstream:L3 | zstd-c | 0.0485 | 0.0498 | ok | n/a |
+| zeros1m | self:zstd-c:L1 | zstd-c | 0.0470 | 0.0488 | ok | n/a |
+| zeros1m | self:zstd-c:L3 | zstd-c | 0.0484 | 0.0497 | ok | n/a |
+| zeros1m | self:zstd-rs-avarok:L1 | zstd-c | 0.0455 | 0.0467 | ok | n/a |
+| zeros1m | self:zstd-rs-avarok:L3 | zstd-c | 0.0478 | 0.0490 | ok | n/a |
+| elf4m | c1 | zstd-rs-avarok | 0.0201 | 0.0210 | ok | 0.35x |
+| elf4m | c3 | zstd-rs-avarok | 0.0171 | 0.0179 | ok | 0.31x |
+| elf4m | self:ruzstd-fork:L1 | zstd-rs-avarok | 0.0217 | 0.0225 | ok | 0.38x |
+| elf4m | self:ruzstd-fork:L3 | zstd-rs-avarok | 0.0228 | 0.0236 | ok | 0.40x |
+| elf4m | self:ruzstd-release:L1 | zstd-rs-avarok | 0.0217 | 0.0227 | ok | 0.37x |
+| elf4m | self:ruzstd-release:L3 | zstd-rs-avarok | 0.0205 | 0.0214 | ok | 0.36x |
+| elf4m | self:ruzstd-upstream:L1 | zstd-rs-avarok | 0.0206 | 0.0214 | ok | 0.37x |
+| elf4m | self:ruzstd-upstream:L3 | zstd-rs-avarok | 0.0228 | 0.0236 | ok | 0.39x |
+| elf4m | self:zstd-c:L1 | zstd-rs-avarok | 0.0208 | 0.0217 | ok | 0.34x |
+| elf4m | self:zstd-c:L3 | zstd-rs-avarok | 0.0175 | 0.0184 | ok | 0.29x |
+| elf4m | self:zstd-rs-avarok:L1 | zstd-rs-avarok | 0.0200 | 0.0208 | ok | 0.36x |
+| elf4m | self:zstd-rs-avarok:L3 | zstd-rs-avarok | 0.0184 | 0.0194 | ok | 0.32x |
+| json1m | c1 | zstd-rs-avarok | 0.0100 | 0.0108 | ok | 0.20x |
+| json1m | c3 | zstd-rs-avarok | 0.0096 | 0.0103 | ok | 0.19x |
+| json1m | self:ruzstd-fork:L1 | zstd-rs-avarok | 0.0097 | 0.0104 | ok | 0.19x |
+| json1m | self:ruzstd-fork:L3 | zstd-rs-avarok | 0.0109 | 0.0117 | ok | 0.22x |
+| json1m | self:ruzstd-release:L1 | zstd-rs-avarok | 0.0108 | 0.0115 | ok | 0.22x |
+| json1m | self:ruzstd-release:L3 | zstd-rs-avarok | 0.0112 | 0.0120 | ok | 0.22x |
+| json1m | self:ruzstd-upstream:L1 | zstd-rs-avarok | 0.0116 | 0.0124 | ok | 0.22x |
+| json1m | self:ruzstd-upstream:L3 | zstd-rs-avarok | 0.0115 | 0.0123 | ok | 0.22x |
+| json1m | self:zstd-c:L1 | zstd-rs-avarok | 0.0101 | 0.0108 | ok | 0.20x |
+| json1m | self:zstd-c:L3 | zstd-rs-avarok | 0.0097 | 0.0104 | ok | 0.20x |
+| json1m | self:zstd-rs-avarok:L1 | zstd-rs-avarok | 0.0096 | 0.0103 | ok | 0.19x |
+| json1m | self:zstd-rs-avarok:L3 | zstd-rs-avarok | 0.0096 | 0.0103 | ok | 0.18x |
+| rand4m | c1 | zstd-rs-avarok | 0.0116 | 0.0124 | ok | 0.23x |
+| rand4m | c3 | zstd-rs-avarok | 0.0143 | 0.0153 | ok | 0.26x |
+| rand4m | self:ruzstd-fork:L1 | zstd-rs-avarok | 0.0151 | 0.0160 | ok | 0.27x |
+| rand4m | self:ruzstd-fork:L3 | zstd-rs-avarok | 0.0153 | 0.0163 | ok | 0.28x |
+| rand4m | self:ruzstd-release:L1 | zstd-rs-avarok | 0.0144 | 0.0152 | ok | 0.27x |
+| rand4m | self:ruzstd-release:L3 | zstd-rs-avarok | 0.0148 | 0.0155 | ok | 0.29x |
+| rand4m | self:ruzstd-upstream:L1 | zstd-rs-avarok | 0.0162 | 0.0171 | ok | 0.32x |
+| rand4m | self:ruzstd-upstream:L3 | zstd-rs-avarok | 0.0164 | 0.0174 | ok | 0.30x |
+| rand4m | self:zstd-c:L1 | zstd-rs-avarok | 0.0118 | 0.0127 | ok | 0.21x |
+| rand4m | self:zstd-c:L3 | zstd-rs-avarok | 0.0145 | 0.0153 | ok | 0.27x |
+| rand4m | self:zstd-rs-avarok:L1 | zstd-rs-avarok | 0.0139 | 0.0147 | ok | 0.25x |
+| rand4m | self:zstd-rs-avarok:L3 | zstd-rs-avarok | 0.0140 | 0.0149 | ok | 0.26x |
+| small4k | c1 | zstd-rs-avarok | 0.0066 | 0.0074 | ok | 0.14x |
+| small4k | c3 | zstd-rs-avarok | 0.0064 | 0.0072 | ok | 0.13x |
+| small4k | self:ruzstd-fork:L1 | zstd-rs-avarok | 0.0061 | 0.0067 | ok | 0.12x |
+| small4k | self:ruzstd-fork:L3 | zstd-rs-avarok | 0.0068 | 0.0075 | ok | 0.14x |
+| small4k | self:ruzstd-release:L1 | zstd-rs-avarok | 0.0060 | 0.0066 | ok | 0.13x |
+| small4k | self:ruzstd-release:L3 | zstd-rs-avarok | 0.0063 | 0.0071 | ok | 0.13x |
+| small4k | self:ruzstd-upstream:L1 | zstd-rs-avarok | 0.0061 | 0.0068 | ok | 0.13x |
+| small4k | self:ruzstd-upstream:L3 | zstd-rs-avarok | 0.0064 | 0.0071 | ok | 0.13x |
+| small4k | self:zstd-c:L1 | zstd-rs-avarok | 0.0064 | 0.0071 | ok | 0.14x |
+| small4k | self:zstd-c:L3 | zstd-rs-avarok | 0.0063 | 0.0069 | ok | 0.13x |
+| small4k | self:zstd-rs-avarok:L1 | zstd-rs-avarok | 0.0063 | 0.0070 | ok | 0.13x |
+| small4k | self:zstd-rs-avarok:L3 | zstd-rs-avarok | 0.0066 | 0.0074 | ok | 0.14x |
+| src4m | c1 | zstd-rs-avarok | 0.0207 | 0.0216 | ok | 0.34x |
+| src4m | c3 | zstd-rs-avarok | 0.0202 | 0.0212 | ok | 0.34x |
+| src4m | self:ruzstd-fork:L1 | zstd-rs-avarok | 0.0208 | 0.0215 | ok | 0.35x |
+| src4m | self:ruzstd-fork:L3 | zstd-rs-avarok | 0.0202 | 0.0209 | ok | 0.36x |
+| src4m | self:ruzstd-release:L1 | zstd-rs-avarok | 0.0224 | 0.0232 | ok | 0.39x |
+| src4m | self:ruzstd-release:L3 | zstd-rs-avarok | 0.0227 | 0.0235 | ok | 0.39x |
+| src4m | self:ruzstd-upstream:L1 | zstd-rs-avarok | 0.0229 | 0.0237 | ok | 0.41x |
+| src4m | self:ruzstd-upstream:L3 | zstd-rs-avarok | 0.0228 | 0.0236 | ok | 0.41x |
+| src4m | self:zstd-c:L1 | zstd-rs-avarok | 0.0213 | 0.0224 | ok | 0.36x |
+| src4m | self:zstd-c:L3 | zstd-rs-avarok | 0.0188 | 0.0196 | ok | 0.32x |
+| src4m | self:zstd-rs-avarok:L1 | zstd-rs-avarok | 0.0172 | 0.0179 | ok | 0.31x |
+| src4m | self:zstd-rs-avarok:L3 | zstd-rs-avarok | 0.0190 | 0.0199 | ok | 0.33x |
+| text4m | c1 | zstd-rs-avarok | 0.0231 | 0.0240 | ok | 0.38x |
+| text4m | c3 | zstd-rs-avarok | 0.0236 | 0.0244 | ok | 0.39x |
+| text4m | self:ruzstd-fork:L1 | zstd-rs-avarok | 0.0307 | 0.0316 | ok | 0.52x |
+| text4m | self:ruzstd-fork:L3 | zstd-rs-avarok | 0.0302 | 0.0311 | ok | 0.50x |
+| text4m | self:ruzstd-release:L1 | zstd-rs-avarok | 0.0314 | 0.0324 | ok | 0.50x |
+| text4m | self:ruzstd-release:L3 | zstd-rs-avarok | 0.0307 | 0.0316 | ok | 0.53x |
+| text4m | self:ruzstd-upstream:L1 | zstd-rs-avarok | 0.0300 | 0.0309 | ok | 0.50x |
+| text4m | self:ruzstd-upstream:L3 | zstd-rs-avarok | 0.0301 | 0.0310 | ok | 0.50x |
+| text4m | self:zstd-c:L1 | zstd-rs-avarok | 0.0227 | 0.0235 | ok | 0.38x |
+| text4m | self:zstd-c:L3 | zstd-rs-avarok | 0.0236 | 0.0245 | ok | 0.38x |
+| text4m | self:zstd-rs-avarok:L1 | zstd-rs-avarok | 0.0226 | 0.0235 | ok | 0.40x |
+| text4m | self:zstd-rs-avarok:L3 | zstd-rs-avarok | 0.0223 | 0.0232 | ok | 0.37x |
+| zeros1m | c1 | zstd-rs-avarok | 0.0074 | 0.0081 | ok | 0.15x |
+| zeros1m | c3 | zstd-rs-avarok | 0.0071 | 0.0078 | ok | 0.15x |
+| zeros1m | self:ruzstd-fork:L1 | zstd-rs-avarok | 0.0078 | 0.0086 | ok | 0.17x |
+| zeros1m | self:ruzstd-fork:L3 | zstd-rs-avarok | 0.0071 | 0.0077 | ok | 0.16x |
+| zeros1m | self:ruzstd-release:L1 | zstd-rs-avarok | 0.0073 | 0.0080 | ok | 0.15x |
+| zeros1m | self:ruzstd-release:L3 | zstd-rs-avarok | 0.0077 | 0.0084 | ok | 0.16x |
+| zeros1m | self:ruzstd-upstream:L1 | zstd-rs-avarok | 0.0063 | 0.0069 | ok | 0.13x |
+| zeros1m | self:ruzstd-upstream:L3 | zstd-rs-avarok | 0.0064 | 0.0070 | ok | 0.13x |
+| zeros1m | self:zstd-c:L1 | zstd-rs-avarok | 0.0076 | 0.0083 | ok | 0.16x |
+| zeros1m | self:zstd-c:L3 | zstd-rs-avarok | 0.0073 | 0.0080 | ok | 0.15x |
+| zeros1m | self:zstd-rs-avarok:L1 | zstd-rs-avarok | 0.0077 | 0.0084 | ok | 0.17x |
+| zeros1m | self:zstd-rs-avarok:L3 | zstd-rs-avarok | 0.0074 | 0.0080 | ok | 0.15x |
+
+oracle checks: 140 recorded, 0 failures; timed runs: 980, failures: 0
+
+[arena] results -> work/results-smoke.json

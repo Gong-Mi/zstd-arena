@@ -1,0 +1,12 @@
+[package]
+name = "ruzstd-fork"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+ruzstd = { git = "https://github.com/Gong-Mi/zstd-rs", rev = "b4ea9a3cedabda82364e2cd2a0dca9f9b84b62e5" }
+
+[profile.release]
+opt-level = 3
+debug = false
