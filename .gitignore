@@ -1,6 +1,9 @@
-target/
-work/
-corpus-out/
-third_party/
 *.log
+*.pkl
 __pycache__/
+ci/
+corpus-out/
+target/
+third_party/
+work*/
+work/

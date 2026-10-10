@@ -67,5 +67,7 @@ jobs:
         if: always()
         with:
           name: arena-${{ matrix.arch }}
-          path: work/
+          path: |
+            work/results-*.json
+            work/*.log
           if-no-files-found: warn

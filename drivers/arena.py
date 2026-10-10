@@ -52,6 +52,17 @@ def which_or_die(name):
     return p
 
 
+def tail_err(path, n=400):
+    """Last n chars of a child's captured stderr (only kept for failing runs)."""
+    if not path:
+        return None
+    try:
+        with open(path, "r", errors="replace") as fh:
+            return fh.read()[-n:]
+    except OSError:
+        return None
+
+
 def pick_cpu(allowed):
     """Prefer a small-cluster core (0-5 on the two-cluster phones this host uses)."""
     small = [c for c in sorted(allowed) if c <= 5]
@@ -59,34 +70,44 @@ def pick_cpu(allowed):
     return pool[len(pool) // 2]
 
 
-def _spawn_wait4(argv):
+def _spawn_wait4(argv, stderr_path=None):
     """fork+exec one process and reap it, returning (status, rusage).
 
     wait4 gives per-child CPU/RSS instead of the RUSAGE_CHILDREN accumulator, and
     fork/exec is used instead of os.posix_spawn because some CPython builds
     (this host's Termux python) do not expose posix_spawn.
+
+    Child stdout goes to /dev/null (the driver's identity comes from the lock
+    files, not from chatty children); stderr goes to stderr_path so a failing
+    run can still be explained without flooding the job log.
     """
     pid = os.fork()
     if pid == 0:  # child
         try:
+            devnull = os.open(os.devnull, os.O_WRONLY)
+            os.dup2(devnull, 1)
+            if stderr_path:
+                errfd = os.open(stderr_path, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
+                os.dup2(errfd, 2)
             os.execv(argv[0], argv)
         except OSError as exc:  # pragma: no cover
-            sys.stderr.write(f"exec failed: {argv[0]}: {exc}\n")
             os._exit(127)
     _pid, status, ru = os.wait4(pid, 0)
     return status, ru
 
 
-def run_timed(argv, cwd=None):
+def run_timed(argv, stderr_path=None, cwd=None):
     """Run one process, return wall/CPU/RSS/exit. Only this child's rusage counts."""
     t0 = time.perf_counter()
-    status, ru = _spawn_wait4(argv)
+    status, ru = _spawn_wait4(argv, stderr_path)
     t1 = time.perf_counter()
+    code = os.waitstatus_to_exitcode(status)
     return {
         "wall_s": t1 - t0,
         "cpu_s": ru.ru_utime + ru.ru_stime,
         "maxrss_kb": ru.ru_maxrss,
-        "exit": os.waitstatus_to_exitcode(status),
+        "exit": code,
+        "stderr": tail_err(stderr_path) if code != 0 else None,
     }
 
 
@@ -298,15 +319,23 @@ def main():
         for corpus, c, lkey, lvl in order:
             for s in range(args.samples):
                 outp = os.path.join(outdir, f"enc-{c.name}-{corpus}-{lkey}.zst")
-                r = run_timed(c.encode_argv(manifest["files"][corpus]["abs"], outp, lvl))
+                r = run_timed(c.encode_argv(manifest["files"][corpus]["abs"], outp, lvl),
+                              stderr_path=os.path.join(args.workdir, "stderr.log"))
                 runs.append({
                     "op": "encode", "impl": c.name, "corpus": corpus, "level_key": lkey,
                     "level": lvl, "round": rnd, "sample": s, "exit": r["exit"],
                     "wall_s": r["wall_s"], "cpu_s": r["cpu_s"], "maxrss_kb": r["maxrss_kb"],
                     "out_bytes": os.path.getsize(outp) if r["exit"] == 0 and os.path.exists(outp) else None,
                     "out_sha256": sha256_file(outp) if r["exit"] == 0 and os.path.exists(outp) else None,
+                    "stderr": r.get("stderr"),
                     "ok": r["exit"] == 0,
                 })
+                # measured outputs are hashed into the record above; keeping them
+                # would make job artifacts hundreds of megabytes
+                try:
+                    os.unlink(outp)
+                except OSError:
+                    pass
 
     # ---- timed decode: identical C frames, every decoder, plus its own frames
     dec_targets = []  # (corpus, target_key, path, allowed impls)
@@ -333,7 +362,8 @@ def main():
                 src_sha = manifest["files"][corpus]["sha256"]
                 for s in range(args.samples):
                     outp = os.path.join(outdir, f"dec-{c.name}-{corpus}-{tkind.replace(':', '_')}.bin")
-                    r = run_timed(c.decode_argv(tpath, outp))
+                    r = run_timed(c.decode_argv(tpath, outp),
+                                  stderr_path=os.path.join(args.workdir, "stderr.log"))
                     ok = r["exit"] == 0 and os.path.exists(outp) and sha256_file(outp) == src_sha
                     runs.append({
                         "op": "decode", "impl": c.name, "corpus": corpus, "level_key": tkind,
@@ -341,8 +371,13 @@ def main():
                         "wall_s": r["wall_s"], "cpu_s": r["cpu_s"], "maxrss_kb": r["maxrss_kb"],
                         "out_bytes": os.path.getsize(outp) if os.path.exists(outp) else None,
                         "out_sha256": sha256_file(outp) if os.path.exists(outp) else None,
+                        "stderr": r.get("stderr"),
                         "ok": ok,
                     })
+                    try:
+                        os.unlink(outp)
+                    except OSError:
+                        pass
 
     # ---- derived table + head-to-head
     enc = summarize([r for r in runs if r["op"] == "encode"],
