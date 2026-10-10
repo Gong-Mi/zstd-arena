@@ -2,5 +2,5 @@ target/
 work/
 corpus-out/
 third_party/
-build-*.log
+*.log
 __pycache__/
